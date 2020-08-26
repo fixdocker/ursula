@@ -11,7 +11,7 @@ WORKDIR /ursula
 
 RUN pip install -U pip 
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt --ignore-installed 
 
 RUN mkdir /root/.ssh
 
